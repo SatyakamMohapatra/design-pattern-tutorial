@@ -1,4 +1,4 @@
-package com.satya.creational;
+package com.satya.creational.singleton;
 
 public class MySingleton {
 

@@ -1,12 +1,13 @@
 package com.satya.creational;
 
+import com.satya.creational.singleton.MySingleton;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class MySingletonTest {
-    private MySingleton  mySingletonObject1 = null;
+    private MySingleton mySingletonObject1 = null;
     private MySingleton mysSingletonObject2 = null;
 
 
