@@ -9,6 +9,7 @@ class MySingletonTest {
     private MySingleton  mySingletonObject1 = null;
     private MySingleton mysSingletonObject2 = null;
 
+
     @BeforeEach
     void setUp() {
         mySingletonObject1 = MySingleton.getInstance();
