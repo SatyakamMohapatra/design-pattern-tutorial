@@ -1,12 +1,12 @@
 # design-pattern-tutorial
 
-Types of design pattern
+**Types of design pattern**
 
 * Creation
 * Structural
 * Behavioral
 
-Creation
+**Creation**
 Ways to create a object
 
 * Singleton Pattern
@@ -15,7 +15,7 @@ Ways to create a object
 * Factory Method Pattern
 * Abstract Factory Pattern
 
-Singleton Pattern:
+**Singleton Pattern:**
 
 Concept
 * Only one instance created.
@@ -29,7 +29,7 @@ Design
 * Private instance
 * Private Constructor
 
-Builder Pattern
+**Builder Pattern**
 
 Concept
 * To make it immutable
@@ -37,7 +37,7 @@ Concept
 * Have a static Builder class to build the object.
 * final variable in the parent class to make it immutable 
 
-Prototype Pattern
+**Prototype Pattern**
 
 If a object is costly to create but we can get around by coping the member variable of the object we can use prototype
 
@@ -49,7 +49,7 @@ Concept
 * usually implemented with with a registry
 * Shallow Vs Deep Copy
 
-Factory Method Pattern
+**Factory Method Pattern**
 
 Its opposite of Singleton having Common Interface but Concrete Classes
 
@@ -63,7 +63,7 @@ Concept
     * ResourceBundel
     * NumberFormat
 
-Abstract Factory
+**Abstract Factory**
 
 Concept
 * Factory of Factory
