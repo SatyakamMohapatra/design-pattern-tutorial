@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="93.20833333333334" y="0.0">com.satya.structural.flyweight.Item</node>
+    <node x="101.00000000000001" y="86.0">com.satya.structural.flyweight.Catalog</node>
+    <node x="5.1041666666667" y="248.0">com.satya.structural.flyweight.flyweightInventoryDemo</node>
+    <node x="0.0" y="86.0">com.satya.structural.flyweight.Order</node>
+    <node x="26.31250000000003" y="172.0">com.satya.structural.flyweight.IndentorySystem</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.satya.structural.flyweight.IndentorySystem" target="com.satya.structural.flyweight.Order">
+      <point x="-37.75000000000003" y="-13.0" />
+      <point x="64.0625" y="142.0" />
+      <point x="40.5" y="142.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+    <edge source="com.satya.structural.flyweight.Order" target="com.satya.structural.flyweight.Item">
+      <point x="20.25" y="-13.0" />
+      <point x="60.75" y="66.0" />
+      <point x="111.70833333333334" y="66.0" />
+      <point x="-18.5" y="13.0" />
+    </edge>
+    <edge source="com.satya.structural.flyweight.Catalog" target="com.satya.structural.flyweight.Item">
+      <point x="0.0" y="-13.0" />
+      <point x="148.5" y="66.0" />
+      <point x="136.375" y="66.0" />
+      <point x="6.166666666666657" y="13.0" />
+    </edge>
+    <edge source="com.satya.structural.flyweight.IndentorySystem" target="com.satya.structural.flyweight.Item">
+      <point x="62.91666666666667" y="-13.0" />
+      <point x="164.72916666666669" y="152.0" />
+      <point x="206.5" y="152.0" />
+      <point x="206.5" y="46.0" />
+      <point x="161.04166666666669" y="46.0" />
+      <point x="30.833333333333343" y="13.0" />
+    </edge>
+    <edge source="com.satya.structural.flyweight.flyweightInventoryDemo" target="com.satya.structural.flyweight.IndentorySystem">
+      <point x="50.0" y="-13.0" />
+      <point x="155.10416666666669" y="223.0" />
+      <point x="139.5625" y="223.0" />
+      <point x="37.749999999999986" y="13.0" />
+    </edge>
+    <edge source="com.satya.structural.flyweight.IndentorySystem" target="com.satya.structural.flyweight.Catalog">
+      <point x="37.749999999999986" y="-13.0" />
+      <point x="139.5625" y="142.0" />
+      <point x="172.25" y="142.0" />
+      <point x="23.75" y="13.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.4000000000000004" x="424.0" y="78.71428571428567" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
